@@ -1,6 +1,6 @@
 .social-footer {
     padding: 1rem;
-    background: $dark-gray;
+    background: gray;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -12,10 +12,10 @@
   
       .fa {
         font-size: 1.3rem;
-        color: $white;
+        color: white;
   
         &:hover {
-          color: darken($dark-gray, 25%);
+          color: darken(gray, 25%);
           transition: color 0.3s ease-in;
         }
       }
